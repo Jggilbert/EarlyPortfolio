@@ -1,0 +1,45 @@
+
+@media (max-width: 1200px) {
+  body {
+      background-color: rgb(220, 246, 255);
+  }
+}
+.header-container {
+    color: rgba(63, 63, 63, 0.575);
+    background-color: rgb(240, 205, 205);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 50px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+  }
+
+  .icons {
+      align-self: flex-end;
+      margin-bottom: 40px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: medium;
+    width: 25px;
+
+  }
+
+  .footer {
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+  }
